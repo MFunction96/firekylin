@@ -1841,9 +1841,9 @@ ee-first@~1.1.1:
   version "1.1.1"
   resolved "http://registry.npm.taobao.org/ee-first/download/ee-first-1.1.1.tgz#590c61156b0ae2f4f0255732a158b266bc56b21d"
 
-ejs@2.4.1:
-  version "2.4.1"
-  resolved "http://registry.npm.taobao.org/ejs/download/ejs-2.4.1.tgz#82e15b1b2a1f948b18097476ba2bd7c66f4d1566"
+ejs@2.5.7:
+  version "2.5.7"
+  resolved "https://registry.yarnpkg.com/ejs/-/ejs-2.5.7.tgz#cc872c168880ae3c7189762fd5ffc00896c9518a"
 
 electron-to-chromium@^1.2.7:
   version "1.3.2"
@@ -2593,8 +2593,8 @@ home-or-tmp@^2.0.0:
     os-tmpdir "^1.0.1"
 
 hosted-git-info@^2.1.4:
-  version "2.4.1"
-  resolved "http://registry.npm.taobao.org/hosted-git-info/download/hosted-git-info-2.4.1.tgz#4b0445e41c004a8bd1337773a4ff790ca40318c8"
+  version "2.8.9"
+  resolved "https://registry.yarnpkg.com/hosted-git-info/-/hosted-git-info-2.8.9.tgz#dffc0bf9a21c02209090f2aa69429e1414daf3f9"
 
 html-comment-regex@^1.1.0:
   version "1.1.1"
@@ -3303,6 +3303,10 @@ lodash.words@^3.0.0:
   resolved "http://registry.npm.taobao.org/lodash.words/download/lodash.words-3.2.0.tgz#4e2a8649bc08745b17c695b1a3ce8fee596623b3"
   dependencies:
     lodash._root "^3.0.0"
+
+lodash@^3.5.0:
+  version "3.10.1"
+  resolved "https://registry.yarnpkg.com/lodash/-/lodash-3.10.1.tgz#5bf45e8e49ba4189e17d482789dfd15bd140b7b6"
 
 lodash@^4.0.0, lodash@^4.0.1, lodash@^4.14.0, lodash@^4.2.0, lodash@^4.3.0:
   version "4.17.4"
@@ -5346,16 +5350,16 @@ thinkit@4.10.0:
   version "4.10.0"
   resolved "http://registry.npm.taobao.org/thinkit/download/thinkit-4.10.0.tgz#7829b52e9277dbdfa4672e0e919ea6d430a941d3"
 
-thinkjs@^2.2.19:
-  version "2.2.19"
-  resolved "http://registry.npm.taobao.org/thinkjs/download/thinkjs-2.2.19.tgz#1758cc70135ae165c0426be99a270d0ee60f8819"
+thinkjs@^2.2.23:
+  version "2.3.0"
+  resolved "https://registry.yarnpkg.com/thinkjs/-/thinkjs-2.3.0.tgz#4e1fa07a8b8734a6e6eb57b375ff7e0be830592e"
   dependencies:
     babel-runtime "6.6.1"
     bluebird "3.3.5"
     co "4.6.0"
     colors "1.1.2"
     commander "2.9.0"
-    ejs "2.4.1"
+    ejs "2.5.7"
     mime "1.3.4"
     multiparty "4.1.2"
     mysql "2.11.1"
@@ -5765,6 +5769,12 @@ write@^0.2.1:
   dependencies:
     mkdirp "^0.5.1"
 
+wxr@^0.1.2:
+  version "0.1.2"
+  resolved "https://registry.yarnpkg.com/wxr/-/wxr-0.1.2.tgz#ea9f82d9d51d8e7567c92e2a3a13c8760bb2eb59"
+  dependencies:
+    xmlbuilder "^2.6.4"
+
 "xml-name-validator@>= 2.0.1 < 3.0.0", xml-name-validator@^2.0.1:
   version "2.0.1"
   resolved "http://registry.npm.taobao.org/xml-name-validator/download/xml-name-validator-2.0.1.tgz#4d8b8f1eccd3419aa362061becef515e1e559635"
@@ -5775,6 +5785,12 @@ xml2js@^0.4.16:
   dependencies:
     sax ">=0.6.0"
     xmlbuilder "^4.1.0"
+
+xmlbuilder@^2.6.4:
+  version "2.6.5"
+  resolved "https://registry.yarnpkg.com/xmlbuilder/-/xmlbuilder-2.6.5.tgz#6ff7ad60fb72d22764f007a164b77f2bf1400526"
+  dependencies:
+    lodash "^3.5.0"
 
 xmlbuilder@^4.1.0:
   version "4.2.1"
